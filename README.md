@@ -64,7 +64,7 @@ Just a helper to see the output in the debug view.
 **SIGNL4 Alert (http request)**
 This HTTP request will send the alert data to the SIGNL4 webhook. You need to specify your SIGNL4 webhook address including team secret here.
 
-You can find the example code for importing at GitHub: https://github.com/signl4/signl4-node-red/SIGNL4-Alert-Node-Red.txt.
+You can find the example code for importing at GitHub: https://github.com/signl4/signl4-integration-node-red in the file SIGNL4-Alert-Node-Red.txt.
 
 ### Test It
 
