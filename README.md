@@ -6,26 +6,26 @@ Integrate SIGNL4 with Node-RED for mobile alerting via app, push, text, voice wi
 Node-RED is a flow-based development tool for visual programming for wiring together hardware devices, APIs and online services as part of IoT. Node-RED provides a web browser-based flow editor, which can be used to create JavaScript functions. It is shipped with some variants of Raspbian, the operating system of Raspberry Pi.
 Integrating SIGNL4 with Node-RED can enhance your daily operations with an extension to your mobile team in the field or on the shop floor.
 
-[SIGNL4 Alert](SIGNL4-Node-Red-Screenshot.png)
+![SIGNL4 Alert](SIGNL4-Node-Red-Screenshot.png)
 
 ## How it Works
 All it takes to pair Node-RED and SIGNL4 is an node that implements a webhook and encapsulates the SIGNL4 alerting capabilities.
 
 Integration Capabilities
-•	Service engineers alerted via mobile push, text and voice
-•	Staff can acknowledge and take ownership for critical events that occur
-•	Alerts are escalated in case of no response
-•	Communicate within an alert to address a particular problem
-•	Alert on critical device states
-•	Two-way integration to interact or set the device state
+- Service engineers alerted via mobile push, text and voice
+- Staff can acknowledge and take ownership for critical events that occur
+- Alerts are escalated in case of no response
+- Communicate within an alert to address a particular problem
+- Alert on critical device states
+- Two-way integration to interact or set the device state
 
 Scenarios
-•	Industrial IoT
-•	Industry 4.0
-•	IoT Service Alerting
-•	IoT Device Management
-•	IT Operations
-•	Manufacturing, Utility, Oil and Gas, Agriculture, etc.
+- Industrial IoT
+- Industry 4.0
+- IoT Service Alerting
+- IoT Device Management
+- IT Operations
+- Manufacturing, Utility, Oil and Gas, Agriculture, etc.
 
 ## Integrating SIGNL4 with Node-RED
 
@@ -44,7 +44,7 @@ Node-RED (download at https://nodered.org or use it directly on your Raspberry P
 
 In Node-RED you can create a workflow as follows.
 
-[Node-RED Workflow](Node-Red.png)
+![Node-RED Workflow](Node-Red.png)
 
 **Ping Server (ping)**
 Specify the server you want to monitor (ping). For testing purposed you can specify a server that does not exist so the ping will fail.
